@@ -1,4 +1,0 @@
-Fue hecho el 2022-05-11
-
-Esta calculadora es un sistema de conversiones, de binarios, hexadecimales
-y octales 
