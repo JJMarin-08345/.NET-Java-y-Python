@@ -1,10 +1,6 @@
 
 package Vista;
 
-//import javax.swing.ImageIcon;
-
-import java.awt.Dimension;
-
 
 public class frmPrincipal extends javax.swing.JFrame {
 
@@ -197,7 +193,7 @@ public class frmPrincipal extends javax.swing.JFrame {
         // TODO add your handling code here:
         frmCuentadante formCuentadante = new frmCuentadante();
         formCuentadante.setVisible(true);
-        formCuentadante.setSize(new Dimension (200,200));
+//        formCuentadante.setSize(new Dimension (200,200));
         jFormularioPrincipal.add(formCuentadante);
     }//GEN-LAST:event_jMenuCuentadanteActionPerformed
 
