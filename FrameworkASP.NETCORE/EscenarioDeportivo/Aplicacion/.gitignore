@@ -1,0 +1,34 @@
+# Compilación
+bin/
+obj/
+
+# Configuración de Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Paquetes NuGet descargados
+packages/
+*.nupkg
+
+# Archivos de publicación
+*.publishsettings
+*.pubxml
+*.pubxml.user
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# node (si usas React/Angular dentro del proyecto)
+node_modules/
+
+# Secretos locales
+appsettings.Development.json
