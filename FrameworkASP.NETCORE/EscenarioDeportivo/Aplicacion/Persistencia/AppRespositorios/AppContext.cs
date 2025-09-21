@@ -41,7 +41,7 @@ namespace Persistencia
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server= VIVOBOOKASUSM51; Database=BD_EscenarioDeportivo; Trusted_Connection=True; Encrypt=False");
+                optionsBuilder.UseSqlServer("Server= localhost; Database=BD_EscenarioDeportivo; Trusted_Connection=True; Encrypt=False");
             }
         }
 

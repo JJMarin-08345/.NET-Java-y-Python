@@ -24,7 +24,7 @@ namespace Dominio{
 
         //Requerimientos campo Jugadores
         [Required(ErrorMessage="Este campo es obligatorio")]
-        [RegularExpression("([0-9])", ErrorMessage="Ingrese números mayores a 0")]
+        [RegularExpression("^[1-9][0-9]*$", ErrorMessage = "Ingrese un número mayor a 0")]
         [Range(1, 30,ErrorMessage="Demasiados jugadores para un equipo")]
         public int Jugadores {get;set;}
         
